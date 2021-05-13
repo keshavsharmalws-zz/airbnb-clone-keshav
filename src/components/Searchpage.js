@@ -14,7 +14,7 @@ export default function Searchpage() {
               <Button variant='outlined'>Cancellation Flexibility </Button>
               <Button variant='outlined'>Type of place </Button>
               <Button variant='outlined'>Price </Button>
-            
+              <Button variant="outlined">Rooms size</Button>
           </div>
           <Searchresult img={room1}
            location="private room in london" 
