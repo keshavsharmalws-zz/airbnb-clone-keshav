@@ -13,7 +13,7 @@ export default function Header() {
         <div className="header">
          <Link to='/' style={{textDecoration:'none', color:'black'}}>    <img className="header_icon img-fluid"  src={logo} alt=""/></Link>
             <div className="header_center">
-                <input type="text"/>
+                <input type="text" placeholder="Search destination"/>
                 <SearchIcon />
             </div>
             <div className="header_right">
